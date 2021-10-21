@@ -3,7 +3,7 @@
 
 This repository contains the Dockerfile to create the image via the github workflow:
 
-* [mbajdel/epics-base][] on Docker Hub
+* [mbajdel/epics-base](https://hub.docker.com/repository/docker/mbajdel/epics-base) on Docker Hub
     * **EPICS Base** 7.0.4 in a Docker container
 
 ## epics-base
