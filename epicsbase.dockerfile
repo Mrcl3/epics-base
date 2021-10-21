@@ -29,6 +29,15 @@ RUN apt-get update \
 ## delete sources
       && cd /epics \
       && rm -rf /epics/src/base
+### add user "cbm"
+RUN useradd \
+      --create-home \
+      --home /epics \
+      --gid users \
+      --groups users \
+      --shell /bin/bash \
+      cbm
+
 
 EXPOSE 5064-5065 5064-5065/udp 5075 5076/udp
 
