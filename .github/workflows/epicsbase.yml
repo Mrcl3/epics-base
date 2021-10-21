@@ -28,4 +28,4 @@ jobs:
         with:
           push: true
           file: epicsbase.dockerfile
-          tags: user/app:latest
+          tags: mbajdel/epics-base:latest
